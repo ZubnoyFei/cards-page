@@ -81,19 +81,23 @@ body {
 /*    top: 224px;*/
 /*}*/
 
-/*#img-search {*/
-/*    left: 0%;*/
-/*    right: 0%;*/
-/*    top: 0%;*/
-/*    bottom: -0.01%;*/
-/*}*/
+#img-search {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -0.01%;
+    width: 92px;
+    height: 90px;
+}
 
-/*#img-online-pharmacy {*/
-/*    left: 0%;*/
-/*    right: 0%;*/
-/*    top: 0%;*/
-/*    bottom: 0%;*/
-/*}*/
+#img-online-pharmacy {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 62px;
+    height: 85px;
+}
 
 /*#li-consultation {*/
 /*    display: inline-block;*/
@@ -107,12 +111,14 @@ body {
 /*}*/
 
 
-/*#img-consultation {*/
-/*    left: 65.5%;*/
-/*    right: 30.29%;*/
-/*    top: 21.65%;*/
-/*    bottom: 76.73%;*/
-/*}*/
+#img-consultation {
+    left: 65.5%;
+    right: 30.29%;
+    top: 21.65%;
+    bottom: 76.73%;
+    width: 68px;
+    height: 95px;
+}
 
 /*#li-details-info {*/
 /*    display: inline-block;*/
@@ -125,12 +131,14 @@ body {
 /*    border-radius: 20px;*/
 /*}*/
 
-/*#img-details-info {*/
-/*    left: 17.48%;*/
-/*    right: 78.33%;*/
-/*    top: 28.3%;*/
-/*    bottom: 70.09%;*/
-/*}*/
+#img-details-info {
+    left: 17.48%;
+    right: 78.33%;
+    top: 28.3%;
+    bottom: 70.09%;
+    width: 67px;
+    height: 95px;
+}
 
 /*#li-emergency-info {*/
 /*    display: inline-block;*/
@@ -143,12 +151,21 @@ body {
 /*    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);*/
 /*}*/
 
-/*#img-emergency-care {*/
-/*    width: 80px;*/
-/*    height: 71.15px;*/
-/*    left: 664px;*/
-/*    top: 1674px;*/
-/*}*/
+#img-emergency-care {
+    width: 80px;
+    height: 71.15px;
+    left: 664px;
+    top: 1674px;
+}
+
+#img-tracking {
+    height: 95.01578521728516px;
+    width: 69.42247009277344px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
 
 /*#tracking {*/
 /*    display: inline-block;*/
@@ -198,9 +215,12 @@ body {
 
 .articles li {
     width: 350px;
+    height: 350px;
     border-radius: 20px;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     overflow: hidden;
+    display:flex;
+    flex-direction: column;
 }
 
 .articles li > img {
@@ -213,6 +233,9 @@ body {
 
 .card-content {
     padding: 24px 33px 35px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-content h3 {
@@ -228,4 +251,5 @@ body {
     font-weight: 300;
     color:  #7D7987;
     margin-bottom: 25px;
+    flex-grow: 1;
 }
