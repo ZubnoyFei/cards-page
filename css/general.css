@@ -1,3 +1,9 @@
+body,
+html {
+    font-family: 'Mulish', Arial, sans-serif;
+    font-size: 10px;
+}
+
 @font-face {
     font-family: 'Mulish';
     font-style: normal;
@@ -159,8 +165,8 @@ body {
 }
 
 #img-tracking {
-    height: 95.01578521728516px;
-    width: 69.42247009277344px;
+    height: 96px;
+    width: 69px;
     left: 0px;
     top: 0px;
     border-radius: 0px;
@@ -215,11 +221,10 @@ body {
 
 .articles li {
     width: 350px;
-    height: 350px;
     border-radius: 20px;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     overflow: hidden;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -249,7 +254,18 @@ body {
     font-size: 1.65rem;
     line-height: 1.75;
     font-weight: 300;
-    color:  #7D7987;
+    color: #7D7987;
     margin-bottom: 25px;
     flex-grow: 1;
 }
+
+.services p{
+    font-size: 1.65rem;
+    line-height: 1.75;
+    font-weight: 300;
+    color: #7D7987;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0 500px 0 500px;
+}
+
