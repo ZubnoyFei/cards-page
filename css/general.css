@@ -82,10 +82,7 @@ body {
 }
 
 .card-content img {
-    height: 90px;
-    width: 90px;
-    top: 0px;
-    border-radius: 0px;
+    height: 250px;
 
 }
 
@@ -132,12 +129,16 @@ button {
     font-weight: 700;
     line-height: 60px;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
     padding-left: 50px;
     padding-bottom: 60px;
    color: #458FF6;
   left: 700px;
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
