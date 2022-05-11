@@ -108,7 +108,7 @@ body {
     line-height: 1.75;
     font-weight: 300;
     color: #7D7987;
-    margin-bottom: 25px;
+    margin-bottom: 100px;
     flex-grow: 1;
 }
 
@@ -119,6 +119,7 @@ body {
     color: #7D7987;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 80px;
     padding:0 500px 0 500px;
 text-align: center;}
 
@@ -136,7 +137,7 @@ button {
     padding-left: 50px;
     padding-bottom: 60px;
    color: #458FF6;
-    justify-content: center;
+  left: 700px;
 }
 
 
