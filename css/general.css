@@ -37,7 +37,7 @@ body {
 
 
 .articles {
-    padding-bottom: 200px;
+  padding-bottom: 200px;
     padding-top: 216px;
 }
 
@@ -45,7 +45,6 @@ body {
     width: 1120px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .container p {
@@ -54,7 +53,7 @@ body {
     font-weight: 300;
     color: #7D7987;
     text-align: center;
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
 }
 
 .container h2 {
@@ -154,8 +153,8 @@ button {
     margin-top: 70px;
 }
 
-
-
+.container h2 ::after { margin-bottom: 80px;
+}
 /*h2 {*/
 /*    text-align: center;*/
 /*    font-style: normal;*/
