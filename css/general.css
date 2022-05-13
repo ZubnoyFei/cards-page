@@ -45,9 +45,19 @@ body {
     width: 1120px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
-.articles h2 {
+.container p {
+    font-size: 1.65rem;
+    line-height: 1.75;
+    font-weight: 300;
+    color: #7D7987;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container h2 {
     font-size: 3.6rem;
     margin-bottom: 80px;
     text-align: center;
@@ -79,18 +89,21 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+
 }
 
 .card-content img {
-    height: 250px;
-
+    height: 90px;
+width: 62px;
+    margin-bottom: 20px;
 }
 
 .card-content {
-    padding: 24px 33px 35px;
+    padding: 24px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+
 }
 
 .card-content h3 {
@@ -98,6 +111,8 @@ body {
     line-height: 1.52;
     font-weight: bold;
     margin-bottom: 12px;
+
+    text-align: left;
 }
 
 .card-content p {
@@ -105,8 +120,8 @@ body {
     line-height: 1.75;
     font-weight: 300;
     color: #7D7987;
-    margin-bottom: 100px;
     flex-grow: 1;
+    text-align: left;
 }
 
 .services p{
@@ -122,7 +137,6 @@ text-align: center;}
 
 button {
     width: 200px;
-    height: 56px;
     border: 2px solid #458FF6;
     border-radius: 55px;
     font-size: 18px;
@@ -130,7 +144,6 @@ button {
     line-height: 60px;
     text-align: left;
     padding-left: 50px;
-    padding-bottom: 60px;
    color: #458FF6;
   left: 700px;
 }
@@ -139,6 +152,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 70px;
 }
 
 
