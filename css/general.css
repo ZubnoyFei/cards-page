@@ -87,13 +87,13 @@ body {
     border-radius: 20px;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
 
 }
 
 .card-content img {
-    height: 90px;
+    /*height: 90px;*/
 width: 62px;
     margin-bottom: 20px;
 }
@@ -111,7 +111,6 @@ width: 62px;
     line-height: 1.52;
     font-weight: bold;
     margin-bottom: 12px;
-
     text-align: left;
 }
 
