@@ -1,0 +1,19 @@
+:root {
+  --color-main-100: rgb(132, 126, 177);
+  --color-main-500: rgb(91, 83, 147);
+  --color-main-900: rgb(32, 24, 88);
+}
+
+body {
+  background-color: var(--color-main-100);
+}
+
+li {
+  background-color: var(--color-main-500);
+}
+
+.blue {
+  --color-main-100: rgb(132, 126, 177);
+  --color-main-500: rgb(91, 83, 147);
+  --color-main-900: rgb(32, 24, 88);
+}

@@ -9,7 +9,7 @@ html {
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: url("fonts/Mulish-Regular.woff2") format('woff2')
+    src: url("../fonts/Mulish-Regular.woff2") format('woff2')
 }
 
 @font-face {
@@ -17,16 +17,17 @@ html {
     font-style: normal;
     font-weight: bold;
     font-display: swap;
-    src: url("fonts/Mulish-Bold.woff2") format('woff2')
+    src: url("../fonts/Mulish-Bold.woff2") format('woff2')
 }
 
 
+
 @font-face {
-    font-family: 'Mulish-Medium';
+    font-family: 'Mulish-Bold';
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-display: swap;
-    src: url("fonts/Mulish-Medium.woff2") format('woff2')
+    src: url("../fonts/Mulish-Medium.woff2") format('woff2')
 }
 
 
@@ -34,272 +35,66 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
-
-
-.articles {
-  padding-bottom: 200px;
-    padding-top: 216px;
+.cards__wrapper {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .container {
-    width: 1120px;
     margin-left: auto;
     margin-right: auto;
+    width: 1200px;
 }
 
-.container p {
-    font-size: 1.65rem;
-    line-height: 1.75;
+.cards__heading {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.cards__text {
+    font-size: 18px;
     font-weight: 300;
+    line-height: 1.6;
     color: #7D7987;
-    text-align: center;
-    /*margin-bottom: 80px;*/
-}
 
-.container h2 {
-    font-size: 3.6rem;
-    margin-bottom: 80px;
-    text-align: center;
 }
 
 
-.articles h2::after {
-    content: '';
-    display: block;
-    width: 56px;
-    height: 2px;
-    border-radius: 1px;
-    background-color: black;
-    margin-top: 26px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.articles ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 34px;
-}
-
-.articles li {
-    width: 350px;
+.cards__item {
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.7);
     border-radius: 20px;
-    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-    overflow: hidden;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-
+    background-color: #FFFFFF;
+    width:350px;
+    padding: 40px;
 }
 
-.card-content img {
-    /*height: 90px;*/
-width: 62px;
+.cards__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+
+.cards img {
+    height: 85px;
     margin-bottom: 20px;
 }
 
-.card-content {
-    padding: 24px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.card-content h3 {
-    font-size: 2.1rem;
-    line-height: 1.52;
-    font-weight: bold;
-    margin-bottom: 12px;
-    text-align: left;
-}
-
-.card-content p {
-    font-size: 1.65rem;
-    line-height: 1.75;
-    font-weight: 300;
-    color: #7D7987;
-    flex-grow: 1;
-    text-align: left;
-}
-
-.services p{
-    font-size: 1.65rem;
-    line-height: 1.75;
-    font-weight: 300;
-    color: #7D7987;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
-    padding:0 500px 0 500px;
-text-align: center;}
-
-button {
-    width: 200px;
-    border: 2px solid #458FF6;
-    border-radius: 55px;
-    font-size: 18px;
+.cards__heading {
     font-weight: 700;
-    line-height: 60px;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.cards__text {
     text-align: left;
-    padding-left: 50px;
-   color: #458FF6;
-  left: 700px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #7D7987;
+    line-height: 1.5;
 }
 
-.button-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
-}
-
-.container h2 ::after { margin-bottom: 80px;
-}
-/*h2 {*/
-/*    text-align: center;*/
-/*    font-style: normal;*/
-/*    font-weight: 700;*/
-/*    font-size: 24px;*/
-/*    line-height: 2.3;*/
-/*    writing-mode: horizontal-tb;*/
-/*    color: #000000;*/
-/*}*/
-
-/*p {*/
-/*    font-style: normal;*/
-/*    font-weight: 300;*/
-/*    font-size: 16px;*/
-/*    line-height: 1.87;*/
-/*    text-align: center;*/
-/*    color: #7D7987;*/
-/*    mix-blend-mode: normal;*/
-/*    writing-mode: horizontal-tb;*/
-/*}*/
-
-/*#search-doctor {*/
-/*    display: inline-block;*/
-/*    width: 350px;*/
-/*    height: 354px;*/
-/*    background: #FFFFFF;*/
-/*    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);*/
-/*    border-radius: 20px;*/
-/*    left: 240px;*/
-/*    top: 1224px;*/
-/*}*/
 
 
-/*#online-pharmacy {*/
-/*    display: inline-block;*/
-/*    width: 350px;*/
-/*    height: 354px;*/
-/*    left: 624px;*/
-/*    top: 1210px;*/
-/*    background: #FFFFFF;*/
-/*    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);*/
-/*    border-radius: 20px;*/
-/*}*/
-
-
-/*#first-row-section {*/
-/*    position: absolute;*/
-/*    width: 1120px;*/
-/*    height: 745px;*/
-/*    left: 440px;*/
-/*    top: 224px;*/
-/*}*/
-
-/*#img-search {*/
-/*    left: 0%;*/
-/*    right: 0%;*/
-/*    top: 0%;*/
-/*    bottom: -0.01%;*/
-/*    width: 92px;*/
-/*    height: 90px;*/
-/*}*/
-
-/*#img-online-pharmacy {*/
-/*    left: 0%;*/
-/*    right: 0%;*/
-/*    top: 0%;*/
-/*    bottom: 0%;*/
-/*    width: 62px;*/
-/*    height: 85px;*/
-/*}*/
-
-/*#li-consultation {*/
-/*    display: inline-block;*/
-/*    width: 350px;*/
-/*    height: 354px;*/
-/*    left: 1010px;*/
-/*    top: 1224px;*/
-/*    background: #FFFFFF;*/
-/*    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);*/
-/*    border-radius: 20px;*/
-/*}*/
-
-
-/*#img-consultation {*/
-/*    left: 65.5%;*/
-/*    right: 30.29%;*/
-/*    top: 21.65%;*/
-/*    bottom: 76.73%;*/
-/*    width: 68px;*/
-/*    height: 95px;*/
-/*}*/
-
-/*#li-details-info {*/
-/*    display: inline-block;*/
-/*    width: 350px;*/
-/*    height: 354px;*/
-/*    left: 240px;*/
-/*    top: 1615px;*/
-/*    background: #FFFFFF;*/
-/*    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);*/
-/*    border-radius: 20px;*/
-/*}*/
-
-/*#img-details-info {*/
-/*    left: 17.48%;*/
-/*    right: 78.33%;*/
-/*    top: 28.3%;*/
-/*    bottom: 70.09%;*/
-/*    width: 67px;*/
-/*    height: 95px;*/
-/*}*/
-
-/*#li-emergency-info {*/
-/*    display: inline-block;*/
-/*    height: 354px;*/
-/*    width: 350px;*/
-/*    left: 624px;*/
-/*    top: 1615px;*/
-/*    border-radius: 20px;*/
-/*    background: #FFFFFF;*/
-/*    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);*/
-/*}*/
-
-/*#img-emergency-care {*/
-/*    width: 80px;*/
-/*    height: 71.15px;*/
-/*    left: 664px;*/
-/*    top: 1674px;*/
-/*}*/
-
-/*#img-tracking {*/
-/*    height: 96px;*/
-/*    width: 69px;*/
-/*    left: 0px;*/
-/*    top: 0px;*/
-/*    border-radius: 0px;*/
-
-/*}*/
-
-/*#tracking {*/
-/*    display: inline-block;*/
-/*    height: 354px;*/
-/*    width: 350px;*/
-/*    left: 1010px;*/
-/*    top: 1615px;*/
-/*    border-radius: 20px;*/
-/*    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4)*/
-/*}*/
