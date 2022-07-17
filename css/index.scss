@@ -12,8 +12,20 @@ li {
   background-color: var(--color-main-500);
 }
 
-.blue {
-  --color-main-100: rgb(132, 126, 177);
-  --color-main-500: rgb(91, 83, 147);
-  --color-main-900: rgb(32, 24, 88);
+//.blue {
+//  --color-secondary-100: rgb(132, 126, 177);
+//  --color-secondary-500: rgb(91, 83, 147);
+//  --color-secondary-900: rgb(32, 24, 88);
+//}
+
+.green {
+  --color-secondary-100: rgb(85, 170, 85);
+  --color-secondary-500: rgb(17, 102, 17);
+  --color-secondary-900: rgb(0, 68, 0);
+}
+
+.orange {
+    --color-tertiary-100: rgb(170, 102, 57);
+    --color-tertiary-500: rgb(191, 75, 0);
+    --color-tertiary-900: rgb(180, 72, 1);
 }
